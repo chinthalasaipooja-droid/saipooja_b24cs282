@@ -1,7 +1,6 @@
 const EventEmitter = require("events");
-const EventEmitter = new EventEmitter();
-eventEmitter.once("Start",()=>{
+const eventEmitter = new EventEmitter();
+eventEmitter.once("start",()=>{
     console.log("Application started");});
 eventEmitter.emit("start");
 eventEmitter.emit("start");
-
